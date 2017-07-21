@@ -19,7 +19,7 @@ do
 		INFORMIX="$IOTKITDEPEND/ids.*.tar"
 		cd $IOTKITDEPEND
 		sudo tar xvf $INFORMIX
-		sudo $IOTKITDEPEND/ids_install -DINSTALL_DIR=/opt/IBM/informix -DLICENSE_ACCEPTED=TRUE -i silent
+		sudo $IOTKITDEPEND/ids_install -DUSER_INSTALL_DIR=/opt/IBM/informix -DLICENSE_ACCEPTED=TRUE -i silent
 		break
 
 	else
