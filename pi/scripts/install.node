@@ -19,7 +19,7 @@ fi
 wc=`lscpu | grep armv7 | wc -l`
 
 if [ "$wc" -eq "1" ]; then
-	curl -kL https://deb.nodesource.com/setup_0.12 | sudo bash - 	
+	curl -kL https://deb.nodesource.com/setup_4.x | sudo bash -
 	sudo apt-get install -y build-essential python-dev python-rpi.gpio nodejs -y
 fi
 
